@@ -1,0 +1,37 @@
+Messaging App using Erlang Rebar3
+
+=====================================
+Build With erlang rebar3 and IntelliJ IDEA
+=====================================
+- Ubuntu 18
+- Erlang Rebar3
+- IntelliJ IDEA
+
+
+
+
+:::::::::::::::::::::::::::::::::::::::::
+Step # 1 ---------- Create Base template
+:::::::::::::::::::::::::::::::::::::::::
+
+1. $ rebar3 new app yourAppName && cd ./yourAppName && rebar3 compile && rebar3 tree &&
+2. $ rlwrap -a -c -r rebar3 shell
+3. $ ln -s _build/default/lib/ deps   (for idea intellisance)
+:::::::::::::::::::::::::::::::::::::::::
+Step # 2 ---------- Configure IntelliJ IDEA
+:::::::::::::::::::::::::::::::::::::::::
+
+1. Install Erlang pluging :
+	Goto : File > Settings > Plugs > Search : ( Erlang ), Apply : Restart IDE
+
+2. Open : Project in IntelliJ IDEA
+
+3. Configuration of Rebar3 paths
+	Goto : File > Settings > Erlang Tool > Rebar Path : (/usr/local/bin/rebar3), Emacs Path : (/usr/bin/emacs), Apply : Ok
+
+4. Setup Compiler setting :
+	Goto : File > Settings > Build, Execution, Deployment > Compiler > Erlang Compiler > Checked : Compile Project with rebar. Apply : Ok
+
+5. Setup Erlang SDK :
+	Goto : Project Structure > SDKs > Erlang, Apply : Ok
+

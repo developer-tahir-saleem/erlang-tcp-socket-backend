@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/_build/default/lib/esockd/esockd.iml" filepath="$PROJECT_DIR$/_build/default/lib/esockd/esockd.iml" />
+      <module fileurl="file://$PROJECT_DIR$/_build/default/lib/gen_logger/gen_logger.iml" filepath="$PROJECT_DIR$/_build/default/lib/gen_logger/gen_logger.iml" />
+      <module fileurl="file://$PROJECT_DIR$/_build/default/lib/gproc/gproc.iml" filepath="$PROJECT_DIR$/_build/default/lib/gproc/gproc.iml" />
+      <module fileurl="file://$PROJECT_DIR$/_build/default/lib/jiffy/jiffy.iml" filepath="$PROJECT_DIR$/_build/default/lib/jiffy/jiffy.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ping.iml" filepath="$PROJECT_DIR$/ping.iml" />
+    </modules>
+  </component>
+</project>

@@ -1,0 +1,18 @@
+{application, ping,
+  [{description, "Ping is an Messaging application"},
+    {vsn, "0.1.0"},
+    {registered, [socket_server]},
+    {mod, {ping, []}},
+    {applications,
+      [kernel,
+        stdlib,
+        compiler,
+        esockd
+      ]},
+    {env, []},
+    {modules, [ping, socket_server, ping_sup]},
+
+    {maintainers, []},
+    {licenses, ["Apache 2.0"]},
+    {links, []}
+  ]}.

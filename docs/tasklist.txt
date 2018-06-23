@@ -1,0 +1,6 @@
+
+ todo # 1  create socket_server
+ todo # 2  create request handler
+ todo # 3  implement socket library
+ todo # 4  create static login, signup and forget password Singles
+ todo # 5  implement rethinkdb with erlang
